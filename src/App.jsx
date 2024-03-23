@@ -1,15 +1,17 @@
-// import {useState} from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
-import Menu from "./components/navbar/Menu.jsx";
+import Navbar from "./components/Navbar.jsx";
+import About from "./components/About.jsx";
+import Skills from "./components/Skills.jsx";
+import ContactMe from "./components/ContactMe.jsx";
 
-export default function App() {
+function App() {
     return (
-        <>
-            <div>
-                <Menu></Menu>
-            </div>
-        </>
-    )
+        <main className="text-gray-400 bg-gray-900 body-font">
+            <Navbar></Navbar>
+            <About></About>
+            <Skills></Skills>
+            <ContactMe></ContactMe>
+        </main>
+    );
 }
+
+export default App;
