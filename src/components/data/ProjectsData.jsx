@@ -1,4 +1,4 @@
-const Projects = () => [
+const ProjectsData = () => [
     {
         title: "Alpaca Discord bot",
         subtitle: "MERN Stack",
@@ -9,4 +9,4 @@ const Projects = () => [
     }
 ]
 
-export default Projects
+export default ProjectsData

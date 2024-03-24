@@ -7,7 +7,7 @@ const About = () => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white  ">
                         Hi,Emmanuel Dito is here
                     </h1>
-                    <br className="hidden lg:inline-block"/>
+                    <br className="hidden lg:inline-block" />
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-semibold text-white  ">
                         Passion in Android Development
                     </h1>
@@ -18,16 +18,15 @@ const About = () => {
                     </p>
                     <br className="hidden lg:inline-block"></br>
                     <div>
-                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Test
-                        </button>
-
-                        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-40">
+                        <a href="" className="bg-blue-200 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Get Started
+                        </a>
+                        <button
+                            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-40">
                             Test2
                         </button>
                     </div>
                 </div>
-
             </div>
         </section>
     )
