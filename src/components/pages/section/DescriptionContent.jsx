@@ -8,8 +8,8 @@ const DescriptionContent = () => {
                         <p class="mb-4">Non Wibu boy; Yoasobi fans since 2022 </p>
                     </div>
                 </div>
-                <div>
-                    <div class="grid grid-cols-2 gap-4 mt-8">
+                <div className="space-x-40 ml-72">
+                    <div class="rtl:grid grid-cols-2 gap-4 mt-8 space-x-10">
                         <img className="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1"></img>
                         <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2"></img>
                     </div>

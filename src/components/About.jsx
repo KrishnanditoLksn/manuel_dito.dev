@@ -17,13 +17,13 @@ const About = () => {
                         Laborum, voluptas natus?
                     </p>
                     <br className="hidden lg:inline-block"></br>
-                    <div>
-                        <a href="" className="bg-blue-200 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    <div className="">
+                        <button href="" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                             Get Started
-                        </a>
+                        </button>
                         <button
-                            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-40">
-                            Test2
+                            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-40 sm:mt-9">
+                            More Information
                         </button>
                     </div>
                 </div>
@@ -31,6 +31,4 @@ const About = () => {
         </section>
     )
 }
-
-
 export default About

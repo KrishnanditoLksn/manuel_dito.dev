@@ -2,7 +2,7 @@ import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import ContactMe from "./components/ContactMe.jsx";
 import Header from "./components/pages/navbar/Navbar.jsx";
-import ContentSection from "./components/section/ContentSection.jsx";
+import ContentSection from "./components/pages/section/ContentSection.jsx";
 
 function App() {
     return (
