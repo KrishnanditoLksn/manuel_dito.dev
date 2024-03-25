@@ -6,6 +6,7 @@ const DescriptionContent = () => {
                     <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Dito from Sragen</h2>
                         <p class="mb-4">Non Wibu boy; Yoasobi fans since 2022 </p>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat cupiditate illo magnam voluptatibus nemo, corporis distinctio velit placeat nobis. Expedita!</p>
                     </div>
                 </div>
                 <div className="space-x-40 ml-72">
