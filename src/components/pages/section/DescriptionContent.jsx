@@ -3,10 +3,11 @@ const DescriptionContent = () => {
         <section className="bg-white dark:bg-gray-900">
             <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 mr-72">
                 <div>
-                    <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                    <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 mb-80">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Dito from Sragen</h2>
                         <p class="mb-4">Non Wibu boy; Yoasobi fans since 2022 </p>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat cupiditate illo magnam voluptatibus nemo, corporis distinctio velit placeat nobis. Expedita!</p>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente temporibus, recusandae nobis quo deserunt velit nihil unde iste, officia voluptatibus hic voluptate! Consequatur pariatur mollitia asperiores ipsam sint maiores, delectus iure odit vero, amet doloremque veritatis itaque quidem ullam earum dolor aspernatur fuga esse error sit voluptates, expedita voluptatibus quisquam. Quos, perspiciatis unde vitae excepturi quia iure ad corporis qui! Repellat itaque fugit reiciendis accusamus sunt assumenda adipisci, asperiores et, suscipit quod cum quasi ab voluptatem placeat! Magnam, dicta totam modi voluptate doloremque temporibus possimus perferendis inventore ex delectus!
+                            Repellat eligendi placeat ipsa deserunt illo explicabo optio quis quo.</p>
                     </div>
                 </div>
                 <div className="space-x-40 ml-72">

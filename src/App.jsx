@@ -11,7 +11,6 @@ function App() {
             <About></About>
             <ContentSection></ContentSection>
             <Skills></Skills>
-            <ContactMe></ContactMe>
         </main>
     );
 }
