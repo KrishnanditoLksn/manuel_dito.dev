@@ -1,20 +1,20 @@
+import skills_list from "../../data/SkillsData.jsx";
+
 const SkillsList = () => {
-    return (
-        <div className=" ml-46 place-items-center  grid grid-cols-1 gap-2">
-            <h1 className="text-2xl font-bold">My SKills</h1>
-            <div>
-                <img className="w-60 h-60 rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
-                </img>
-            </div>
-            <div>
-                <img className="w-60 h-60 rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
-                </img>
-            </div>
-            <div>
-                <img className="w-60 h-60 rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
-                </img>
-            </div>
-        </div>
+    return skills_list.map(
+        (skill) => {
+            return (
+                <div key={skill.id} className="ml-46 place-items-center grid grid-cols-1.5 gap-0.5">
+                    <div className="">
+                        <h1 className="text-2xl font-bold">{skill.name}</h1>
+                    </div>
+                    <div>
+                        <img className="w-60 h-60 rounded-lg" src={skill.src} alt="">
+                        </img>
+                    </div>
+                </div>
+            )
+        }
     )
 }
 
