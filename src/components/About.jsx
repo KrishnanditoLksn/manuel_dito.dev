@@ -1,9 +1,9 @@
-import AboutDescription from "./pages/about/AboutDescription"
+import AboutSection from "./pages/about/AboutSection"
 
 const About = () => {
     return (
         <section id="about">
-            <AboutDescription></AboutDescription>
+            <AboutSection></AboutSection>
         </section>
     )
 }
