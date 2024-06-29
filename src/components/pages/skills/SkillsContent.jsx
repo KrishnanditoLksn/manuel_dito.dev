@@ -1,9 +1,9 @@
 import SkillsList from "./SkillsList"
 
-const SkillsDescription = () => {
+const SkillDescription = () => {
     return (
         <SkillsList></SkillsList>
     )
 }
 
-export default SkillsDescription
+export default SkillDescription
