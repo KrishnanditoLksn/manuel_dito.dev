@@ -1,16 +1,13 @@
 import About from "./components/About.jsx";
-import Skills from "./components/Skills.jsx";
-import ContactMe from "./components/ContactMe.jsx";
 import Header from "./components/pages/navbar/Navbar.jsx";
 import ContentSection from "./components/pages/section/ContentSection.jsx";
 
 function App() {
     return (
-        <main className="text-gray-400 bg-gray-900 body-font">
+        <main className="text-gray-400 bg-gray-700 body-font">
             <Header></Header>
             <About></About>
             <ContentSection></ContentSection>
-            <Skills></Skills>
         </main>
     );
 }
