@@ -1,6 +1,7 @@
 import About from "./components/About.jsx";
 import Header from "./components/pages/navbar/Navbar.jsx";
 import ContentSection from "./components/pages/section/ContentSection.jsx";
+import ProjectSection from "./components/pages/project/ProjectSection.jsx";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Header></Header>
             <About></About>
             <ContentSection></ContentSection>
+            <ProjectSection></ProjectSection>
         </main>
     );
 }
