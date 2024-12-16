@@ -1,10 +1,10 @@
-import skills_list from "../../data/SkillsData.jsx";
+import SkillsList from "../../data/SkillsData.jsx";
 
-const SkillsList = () => {
-    return skills_list.map(
+const SkillList = () => {
+    return SkillsList.map(
         (skill) => {
             return (
-                <div key={skill.id} className="ml-46 place-items-center grid grid-cols-1.5 gap-0.5">
+                <div key={skill.name} className="ml-46 place-items-center grid grid-cols-1.5 gap-0.5">
                     <div className="">
                         <h1 className="text-2xl font-bold">{skill.name}</h1>
                     </div>
@@ -18,4 +18,4 @@ const SkillsList = () => {
     )
 }
 
-export default SkillsList
+export default SkillList
