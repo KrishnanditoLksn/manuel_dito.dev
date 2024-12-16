@@ -1,16 +1,11 @@
-import NavButton from "./NavButton"
 import Navlist from "./Navlist"
-import Navlogo from "./Navlogo"
 
 const Navbar = () => {
     return (
         <nav className="bg-white border-gray-200 dark:bg-gray-900 relative">
             <div
                 className=" rtl: space-x-reverse max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <div className='mr-100'>
-                    <Navlogo></Navlogo>
-                </div>
-                <NavButton></NavButton>
+                <div className='mr-100'></div>
                 <Navlist></Navlist>
             </div>
         </nav>
