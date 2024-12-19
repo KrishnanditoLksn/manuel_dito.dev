@@ -2,7 +2,7 @@ import DescriptionContent from "./DescriptionContent"
 
 const ContentSection = () => {
     return (
-        <section id="coder">
+        <section id="about">
             <DescriptionContent></DescriptionContent>
         </section>
     )
