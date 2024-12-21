@@ -10,6 +10,10 @@ export default function ProjectContent() {
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">
                             My Projects</h2>
                     </div>
+
+                    <div className="font-black text-black">
+                        <h2 className="text-2xl font-sans font-semibold ">Discover all of my projects </h2>
+                    </div>
                 </div>
             </div>
             <div className="grid grid-cols-3 gap-3 px-4 mx-auto max-w-screen-xl mb-80">
