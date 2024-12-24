@@ -1,3 +1,5 @@
+import {swipeDown} from "../../../helper/ScrollDown.js";
+
 const DescriptionContent = () => {
     return (
         <section className="bg-white dark:bg-white">
@@ -23,6 +25,7 @@ const DescriptionContent = () => {
                         </div>
                     </div>
                 </div>
+                <button onClick={swipeDown} className="text-black text-2xl mr-80 ml-[645px] font-mono">My projects</button>
             </div>
         </section>
     )
