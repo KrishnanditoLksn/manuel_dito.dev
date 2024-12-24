@@ -1,10 +1,6 @@
+import {swipeDown} from "../../../helper/ScrollDown.js";
+
 const AboutDescription = () => {
-    function swipeDown() {
-        window.scrollTo({
-            top: 1000,
-            behavior: "smooth"
-        });
-    }
 
     return (
         <div className=" mx-auto flex px-14 py-20 md:flex-row flex-col items-center bg-white">
@@ -25,7 +21,7 @@ const AboutDescription = () => {
                     So far counted from 2024, I have been a Yoasobi fans and I am very interested in Mobile Development.
                 </p>
                 <br className="hidden lg:inline-block"></br>
-                <button onClick={swipeDown}
+                <button onClick={() => swipeDown(1000)}
                         className="mt-80 ml-[645px] mr-80 text-center text-black font-bold text-2xl">
                     Swipe Down Here 👇
                 </button>
