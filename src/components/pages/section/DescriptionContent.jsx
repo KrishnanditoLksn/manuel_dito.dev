@@ -25,7 +25,9 @@ const DescriptionContent = () => {
                         </div>
                     </div>
                 </div>
-                <button onClick={swipeDown} className="text-black text-2xl mr-80 ml-[645px] font-mono">My projects</button>
+                <button onClick={() => swipeDown(2000)} className="text-black text-2xl mr-80 ml-[645px] font-mono">My
+                    projects
+                </button>
             </div>
         </section>
     )
