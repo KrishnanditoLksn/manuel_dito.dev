@@ -1,6 +1,8 @@
-export const swipeDown = () => {
-    window.scrollTo({
-        top: 1000,
-        behavior: "smooth"
-    });
+export const swipeDown = (top) => {
+    return (
+        window.scrollTo({
+            top: top,
+            behavior: "smooth"
+        })
+    )
 }
