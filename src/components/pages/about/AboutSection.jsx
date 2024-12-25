@@ -1,4 +1,5 @@
 import {swipeDown} from "../../../helper/ScrollDown.js";
+import {SlArrowDownCircle} from "react-icons/sl";
 
 const AboutDescription = () => {
 
@@ -21,9 +22,9 @@ const AboutDescription = () => {
                     So far counted from 2024, I have been a Yoasobi fans and I am very interested in Mobile Development.
                 </p>
                 <br className="hidden lg:inline-block"></br>
-                <button onClick={() => swipeDown(1000)}
-                        className="mt-80 ml-[645px] mr-80 text-center text-black font-bold text-2xl">
-                    Swipe Down Here 👇
+                <button className="mt-80 ml-[680px] mr-80 text-center text-black font-bold text-2xl">
+                    <SlArrowDownCircle size="50px"
+                                       onClick={() => swipeDown(1000)}/>
                 </button>
             </div>
         </div>
