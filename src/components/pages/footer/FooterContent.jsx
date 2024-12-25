@@ -1,3 +1,5 @@
+import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
+
 export const FooterContent = () => {
     return (
         <footer className="bg-white dark:bg-black">
@@ -18,11 +20,18 @@ export const FooterContent = () => {
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <a href="https://github.com/KrishnanditoLksn"
-                                       className="hover:underline ">Github</a>
+                                       className=" flex items-center space-x-2 hover:underline ">
+
+                                        <AiFillGithub size="30px"></AiFillGithub>
+                                        <span>Github</span>
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/emmanuel-krishnandito-laksana-3981b2251/"
-                                       className="hover:underline">LinkedIn</a>
+                                       className="flex items-center space-x-2 hover:underline">
+                                        <AiFillLinkedin size="30px"></AiFillLinkedin>
+                                        <span>LinkedIn</span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
