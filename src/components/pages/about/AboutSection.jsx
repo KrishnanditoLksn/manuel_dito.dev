@@ -1,5 +1,5 @@
 import {swipeDown} from "../../../helper/ScrollDown.js";
-import {SlArrowDownCircle} from "react-icons/sl";
+import {SlArrowDown} from "react-icons/sl";
 
 const AboutDescription = () => {
 
@@ -23,8 +23,8 @@ const AboutDescription = () => {
                 </p>
                 <br className="hidden lg:inline-block"></br>
                 <button className="mt-80 ml-[680px] mr-80 text-center text-black font-bold text-2xl">
-                    <SlArrowDownCircle size="50px"
-                                       onClick={() => swipeDown(1000)}/>
+                    <SlArrowDown size="40px"
+                                 onClick={() => swipeDown(1000)}/>
                 </button>
             </div>
         </div>
