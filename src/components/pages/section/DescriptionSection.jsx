@@ -1,6 +1,6 @@
 import DescriptionContent from "./DescriptionContent"
 
-const ContentSection = () => {
+const DescriptionSection = () => {
     return (
         <section id="content">
             <DescriptionContent></DescriptionContent>
@@ -8,4 +8,4 @@ const ContentSection = () => {
     )
 }
 
-export default ContentSection
+export default DescriptionSection
