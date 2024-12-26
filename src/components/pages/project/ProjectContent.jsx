@@ -2,8 +2,8 @@ import projectList from "../../data/ProjectsData.jsx";
 
 export default function ProjectContent() {
     return (
-        <section id="projects" className="bg-white">
-            <div
+        <section className="bg-white">
+            <div id="/projects"
                 className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 mr-42">
                 <div>
                     <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
