@@ -6,10 +6,14 @@ const Navlist = () => {
             <div className="flex items-center justify-between h-12">
                 <div className=" ml-96 flex space-x-4 text-gray-900">
                     <a href="/about">
-                        <Link to="/about">About</Link>
+                        <Link to="about"
+                              smooth="true"
+                        >About</Link>
                     </a>
                     <a href="/projects">
-                        <Link to="/projects">Projects</Link>
+                        <Link to="/projects"
+                              smooth="true"
+                        >Projects</Link>
                     </a>
                 </div>
             </div>
