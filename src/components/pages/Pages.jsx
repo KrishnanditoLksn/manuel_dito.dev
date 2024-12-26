@@ -6,7 +6,7 @@ import DescriptionSection from "./section/DescriptionSection.jsx";
 
 export default function Pages() {
     return (
-        <main className="text-gray-400 bg-white body-font">
+        <main className=" overflow-hidden text-gray-400 bg-white body-font">
             <Header></Header>
             <About></About>
             <DescriptionSection></DescriptionSection>
