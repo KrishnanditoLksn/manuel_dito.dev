@@ -2,9 +2,8 @@ import {swipeDown} from "../../../helper/ScrollDown.js";
 import {SlArrowDown} from "react-icons/sl";
 
 const AboutDescription = () => {
-
     return (
-        <div className=" mx-auto flex px-14 py-20 md:flex-row flex-col items-center bg-white">
+        <div id="/about" className=" ml-40 mx-auto flex px-14 py-20 md:flex-row flex-col items-center bg-white">
             <div
                 className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black  ">
@@ -22,7 +21,7 @@ const AboutDescription = () => {
                     So far counted from 2024, I have been a Yoasobi fans and I am very interested in Mobile Development.
                 </p>
                 <br className="hidden lg:inline-block"></br>
-                <button className="mt-80 ml-[680px] mr-80 text-center text-black font-bold text-2xl">
+                <button className="mt-80 ml-[520px] mr-80 text-center text-black font-bold text-2xl">
                     <SlArrowDown size="40px"
                                  onClick={() => swipeDown(1000)}/>
                 </button>
