@@ -3,6 +3,7 @@ import About from "../About.jsx";
 import ProjectSection from "./project/ProjectSection.jsx";
 import {FooterSection} from "./footer/FooterSection.jsx";
 import DescriptionSection from "./section/DescriptionSection.jsx";
+import ContactResumeContent from "./contact/ContactResumeContent.jsx";
 
 export default function Pages() {
     return (
@@ -11,6 +12,7 @@ export default function Pages() {
             <About></About>
             <DescriptionSection></DescriptionSection>
             <ProjectSection></ProjectSection>
+            <ContactResumeContent></ContactResumeContent>
             <FooterSection></FooterSection>
         </main>
     )
