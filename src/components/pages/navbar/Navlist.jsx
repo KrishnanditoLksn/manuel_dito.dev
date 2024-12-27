@@ -15,6 +15,13 @@ const Navlist = () => {
                               smooth="true"
                         >Projects</Link>
                     </a>
+
+                    <a href="/resume">
+                        <Link to="/resume"
+                              smooth="true">
+                            Resume
+                        </Link>
+                    </a>
                 </div>
             </div>
         </div>
