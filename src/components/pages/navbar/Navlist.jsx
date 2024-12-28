@@ -4,6 +4,7 @@ const Navlist = () => {
     return (
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex items-center justify-between h-15">
+                <div className="text-[24px] text-black font-bold font-mono">Dits Dev</div>
                 <div className=" ml-96 flex space-x-4 text-gray-900">
                     <a href="/about">
                         <Link to="about"
