@@ -26,7 +26,7 @@ const Navlist = () => {
                     <AiOutlineClose></AiOutlineClose>
                 </button>
             ) : (
-                <button className="fa fa-bars text-3xl md:hidden mb-32" onClick={showNav} aria-hidden="true">
+                <button className="text-3xl md:hidden ml-[350px]" onClick={showNav} aria-hidden="true">
                     <GiHamburgerMenu></GiHamburgerMenu>
                 </button>
             )}
