@@ -1,5 +1,5 @@
 export function resumeDownloader() {
-    const pdfUrl = "resume.pdf"
+    const pdfUrl = "emmmanuel_dito_cv-5.pdf"
     const link = document.createElement('a')
     link.href = pdfUrl
     link.download = "emmanuel_resume.pdf"
