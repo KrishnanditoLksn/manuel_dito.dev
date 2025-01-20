@@ -1,4 +1,4 @@
-import SkillsDescription from "./pages/skills/SkillsComtent"
+import SkillsDescription from "./pages/skills/SkillsContent.jsx"
 
 const Skills = () => {
     return (

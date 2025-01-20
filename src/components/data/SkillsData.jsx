@@ -2,25 +2,30 @@ import javalogo from '../../assets/img_java.png'
 import kotlinlogo from '../../assets/img_kotlin.png'
 import pythonlogo from '../../assets/img_py.png'
 
-const skills_list    = [
+const SkillsList = [
     {
         id: 1,
         name: "Java",
-        Est: 2022,
-        src:  javalogo
+        est: 2022,
+        src: javalogo
     },
     {
         id: 2,
         name: "Kotlin",
-        Est: 2023,
+        est: 2023,
         src: kotlinlogo
     },
     {
         id: 3,
         name: "Python",
-        Est: 2022,
+        est: 2022,
         src: pythonlogo
+    },
+    {
+        id: 4,
+        name: "Javascript",
+        est: 2023,
     }
 ]
 
-export default skills_list
+export default SkillsList
